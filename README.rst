@@ -26,7 +26,7 @@ First, add Mecum to the list of dependencies inside your `composer.json`:
 
     {
         "require": {
-            "php-mecum/mecum": "1.0.*"
+            "mecum/mecum": "1.0.*"
         }
     }
 
