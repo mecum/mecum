@@ -9,11 +9,11 @@
 
     <testsuites>
         <testsuite name="Expand Test Suite">
-            <directory>./vendor/php-mecum/expand/src/Tests/</directory>
+            <directory>./vendor/mecum/expand/src/Tests/</directory>
         </testsuite>
         <testsuite name="Unify Test Suite">
-            <directory>./vendor/php-mecum/unify/src/Tests/</directory>
-            <directory>./vendor/php-mecum/unify/src/extension/Tests/</directory>
+            <directory>./vendor/mecum/unify/src/Tests/</directory>
+            <directory>./vendor/mecum/unify/src/extension/Tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
