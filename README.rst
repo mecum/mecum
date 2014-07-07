@@ -43,6 +43,16 @@ This project is automatically tested on the `Travis CI`_ plateform.
 See below the status of the last dev build :
 
 .. image:: https://travis-ci.org/php-mecum/mecum.svg?branch=master
+
+Tests
+----------
+
+To run the test suite, you need `Composer`_:
+
+.. code-block:: bash
+
+    $> php composer.phar install --dev
+    $> vendor/bin/phpunit
 	
 License
 ----------
