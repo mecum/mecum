@@ -1,0 +1,27 @@
+{
+    "name": "php-mecum/mecum",
+    "description": "Mecum's frameworks and toolkits",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudy Onfroy",
+            "email": "rudy@onfroy.net"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.4",
+        "php-mecum/expand": "1.0.*",
+        "php-mecum/unify": "1.0.*"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
