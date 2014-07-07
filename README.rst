@@ -72,3 +72,4 @@ For the full copyright and license information, please view the `LICENSE`_.
 .. _Unify:               https://github.com/php-mecum/unify
 .. _LICENSE:             https://github.com/php-mecum/mecum/blob/master/LICENSE
 .. _Composer:            http://getcomposer.org
+.. _Travis CI:           https://travis-ci.org
