@@ -59,10 +59,7 @@ Linux :
 
 Windows :
 
-.. code-block:: bash
-
-    $> dev/composer.bat
-    $> dev/phpunit.bat
+Launch the batch files ``dev/composer.bat`` and ``dev/phpunit.bat``
 
 License
 ----------
