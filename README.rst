@@ -36,6 +36,14 @@ Then simply install it with composer:
 
     $> composer install --prefer-dist
 	
+Continuous integration
+----------
+This project is automatically tested on the `Travis CI`_ plateform.
+
+See below the status of the last dev build :
+
+.. image:: https://travis-ci.org/php-mecum/mecum.svg?branch=master
+	
 License
 ----------
 
