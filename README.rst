@@ -49,11 +49,21 @@ Tests
 
 To run the test suite, you need `Composer`_:
 
+
+Linux :
+
 .. code-block:: bash
 
     $> php composer.phar install --dev
     $> vendor/bin/phpunit
-	
+
+Windows :
+
+.. code-block:: bash
+
+    $> dev/composer.bat
+    $> dev/phpunit.bat
+
 License
 ----------
 
