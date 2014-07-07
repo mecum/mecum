@@ -42,7 +42,7 @@ This project is automatically tested on the `Travis CI`_ plateform.
 
 See below the status of the last dev build :
 
-.. image:: https://travis-ci.org/php-mecum/mecum.svg?branch=master
+.. image:: https://travis-ci.org/mecum/mecum.svg?branch=master
 
 Tests
 ----------
@@ -68,8 +68,8 @@ Mecum is licensed under the MIT license.
 
 For the full copyright and license information, please view the `LICENSE`_.
 
-.. _Expand:              https://github.com/php-mecum/expand
-.. _Unify:               https://github.com/php-mecum/unify
-.. _LICENSE:             https://github.com/php-mecum/mecum/blob/master/LICENSE
+.. _Expand:              https://github.com/mecum/expand
+.. _Unify:               https://github.com/mecum/unify
+.. _LICENSE:             https://github.com/mecum/mecum/blob/master/LICENSE
 .. _Composer:            http://getcomposer.org
 .. _Travis CI:           https://travis-ci.org
