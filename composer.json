@@ -24,8 +24,8 @@
     
     "autoload": { 
         "psr-4": { 
-            "Mecum\\Expand\\": "src/expand/src",
-            "Mecum\\Unify\\": "src/unify/src"
+            "Mecum\\Expand\\": "toolkit/expand/src",
+            "Mecum\\Unify\\": "toolkit/unify/src"
          } 
     },
 
