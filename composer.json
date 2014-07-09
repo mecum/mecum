@@ -14,12 +14,17 @@
     },
     
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "symfony/Yaml": "2.5.*"
     },
     
     "replace": {
         "mecum/expand": "self.version",
         "mecum/unify": "self.version"
+    },
+    
+    "suggest": {
+        "symfony/Yaml": "Required for the unify xaml library"
     },
     
     "autoload": { 
