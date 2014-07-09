@@ -4,4 +4,3 @@
 [submodule "expand"]
       path = expand
       url = git://github.com/mecum/expand.git
-      
