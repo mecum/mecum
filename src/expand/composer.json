@@ -1,0 +1,32 @@
+{
+    "name": "mecum/expand",
+    "description": "The dynamic extension system",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudy Onfroy",
+            "email": "rudy@onfroy.net"
+        }
+    ],
+    
+    "autoload": { 
+        "psr-4": { "Mecum\\Expand\\": "src/" } 
+    },
+    
+    "require": {
+        "php": ">=5.4"
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phploc/phploc": "*",
+        "squizlabs/php_codesniffer": "*",
+        "sebastian/phpcpd": "*"
+    },
+    
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

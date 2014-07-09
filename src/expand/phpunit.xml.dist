@@ -9,11 +9,7 @@
 
     <testsuites>
         <testsuite name="Expand Test Suite">
-            <directory>./src/expand/src/Tests/</directory>
-        </testsuite>
-        <testsuite name="Unify Test Suite">
-            <directory>./src/unify/src/Tests/</directory>
-            <directory>./src/unify/src/extension/Tests/</directory>
+            <directory>./src/Tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

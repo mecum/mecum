@@ -10,13 +10,23 @@
     ],
     
     "require": {
-        "php": ">=5.4",
-        "mecum/expand": "1.0.*",
-        "mecum/unify": "1.0.*"
+        "php": ">=5.4"
     },
     
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    
+    "replace": {
+        "mecum/expand": "self.version",
+        "mecum/unify": "self.version"
+    },
+    
+    "autoload": { 
+        "psr-4": { 
+            "Mecum\\Expand\\": "src/expand/src",
+            "Mecum\\Unify\\": "src/unify/src"
+         } 
     },
 
     "extra": {

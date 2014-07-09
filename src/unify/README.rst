@@ -1,30 +1,30 @@
-Mecum
+Unify
 =============================
 
-This is the Mecum's all inclusive package.
+Unify is an extensible data manipulation framework, that can use any iterable datasource.
 
-You can see each component package for more informations :
+It's helpful for fast development of complex data manipulation processes.
 
-* `Expand`_ : The dynamic extension system
-* `Unify`_ : The data manipulation framework
+Unify also provide some extension libraries for specific uses (XML, Json, Math....)
 
 Prerequisites
 ----------
 
-* PHP 5.4 or greater.
+* `PHP`_ 5.4 or greater.
+* `Expand`_ 1.0 or greater
 
 Installation
 ----------
 
-The recommended way to install all Mecum's components is through `Composer`_.
+The recommended way to install Unify is through `Composer`_.
 
-First, add Mecum to the list of dependencies inside your `composer.json`:
+First, add Unify to the list of dependencies inside your `composer.json`:
 
 .. code-block:: json
 
     {
         "require": {
-            "mecum/mecum": "1.0.*"
+            "mecum/unify": "1.0.*"
         }
     }
 
@@ -33,20 +33,19 @@ Then simply install it with composer:
 .. code-block:: batch
 
     $> composer install --prefer-dist
-	
+
 Continuous integration
 ----------
 This project is automatically tested on the `Travis CI`_ plateform.
 
 See below the status of the last dev build :
 
-.. image:: https://travis-ci.org/mecum/mecum.svg?branch=master
+.. image:: https://travis-ci.org/mecum/unify.svg?branch=master
 
 Tests
 ----------
 
 To run the test suite, you need `Composer`_:
-
 
 Linux :
 
@@ -54,20 +53,22 @@ Linux :
 
     $> php composer.phar install --dev
     $> vendor/bin/phpunit
-
+    
+    
 Windows :
 
 Launch the batch files ``dev/composer.bat`` and ``dev/phpunit.bat``
-
-License
+    
+        
+License 
 ----------
 
 Mecum is licensed under the MIT license.
 
 For the full copyright and license information, please view the `LICENSE`_.
 
+.. _LICENSE:             https://github.com/mecum/unify/blob/master/LICENSE
 .. _Expand:              https://github.com/mecum/expand
-.. _Unify:               https://github.com/mecum/unify
-.. _LICENSE:             https://github.com/mecum/mecum/blob/master/LICENSE
+.. _PHP:                 http://www.php.net/
 .. _Composer:            http://getcomposer.org
 .. _Travis CI:           https://travis-ci.org
