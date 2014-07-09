@@ -37,7 +37,7 @@ This project is automatically tested on the `Travis CI`_ plateform.
 
 See below the status of the last dev build :
 
-.. image:: https://travis-ci.org/mecum/expand.svg?branch=master
+.. image:: https://travis-ci.org/mecum/expand.svg?branch=1.0.0
 
 Tests
 ----------
