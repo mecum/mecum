@@ -1,7 +1,0 @@
-[submodule "unify"]
-      path = unify
-      url = git://github.com/mecum/unify.git
-[submodule "expand"]
-      path = expand
-      url = git://github.com/mecum/expand.git
-      
